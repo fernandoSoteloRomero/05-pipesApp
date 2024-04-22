@@ -14,16 +14,19 @@ export class MenuComponent implements OnInit {
       { label: 'NewPipes de Angular', icon: 'pi pi-desktop', 
       items: [
         {
-          label: 'Textos y Fechas con un nombre bien largo',
-          icon: 'pi pi-desktop'
+          label: 'Textos y Fechas',
+          icon: 'pi pi-desktop',
+          routerLink: '/'
         },
         {
           label: 'Números',
-          icon: 'pi pi-dollar'
+          icon: 'pi pi-dollar',
+          routerLink: 'numbers',
         },
         {
           label: 'No comunes',
-          icon: 'pi pi-globe'
+          icon: 'pi pi-globe',
+          routerLink: 'uncommon',
         },
       ]
     },
